@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects-Sachin Durgude</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="logo/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo/favicon/favicon-16x16.png">
+</head>
+<style>
+      .nav {
+    padding-left: 64%;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.nav a:hover{
+    background-color: white;
+    opacity: 0.75;
+    color: black;
+}
+.nav a{
+    float: left;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+}
+.container{
+
+        position: relative;
+        width: 100vw;
+        height: 95vh;
+        display: flex;
+}
+
+.parent1{
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    background-color: rgb(215, 224, 195);
+    opacity: 0.75;
+    border-radius: 20px;
+    margin-top: 14%;
+    margin-left: 26%;
+    padding: 20px;
+    text-align: center;
+}
+.parent1 img{
+    width: 60%;
+}
+.parent2{
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    background-color: rgb(215, 224, 195);
+    opacity: 0.75;
+    border-radius: 20px;
+    margin-top: 14%;
+    margin-left: 53%;
+    padding: 20px;
+    text-align: center;
+}
+.parent2 img{
+    width: 47%;
+}
+.sub-heading1{
+    color:  rgb(27, 55, 6);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+.sub-heading2{
+    font-size: 0.9rem;
+    line-height: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.child a{
+    
+padding: 15px 25px 15px 25px;
+font-size: 1.5rem;
+text-decoration: none;
+
+
+}
+.child button{
+    margin-top: 20px;
+border: 1.5px solid rgb(230, 97, 48);
+border-radius: 10px;
+}
+.child button:hover{
+background-color: rgb(246, 0, 0);
+
+}
+.child a:hover{
+color: white;
+}
+
+.heading{
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    margin-top: 4%;
+    margin-left: 42%;
+    color: rgb(12, 133, 115);
+      opacity: 0.8;
+}
+
+.sub-heading{
+    position: absolute;
+    text-align: center;
+    margin-top: 8.7%;
+    margin-left: 44%;
+    font-size: 1.1rem;
+
+
+    }
+
+</style>
+<body>
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./skill.html">Skills</a>
+        <a href="./myProject.html">My Projects</a>
+        <a href="./services.html">Servies</a>
+        <a href="./contact.html">Contact Us</a>   
+    </nav> 
+    <div class="container">
+<h1 class="heading">My Projects</h1><br>
+<p class="sub-heading">Based on HTML, CSS, JS </p>
+
+<div class="parent1 child">
+    <img src="./Images/date1.jpg" alt="">
+    <h3 class="sub-heading1">Find Day !!</h3>
+    <p class="sub-heading2">Weekday Calculator: What Day Is It? What day of the week was I born? Enter any date to find out the weekday and other fun facts.</p>
+    <button class="Btn"><a href="./findday.html">Lets Try</a></button>
+    
+ </div>
+
+ <div class="parent2 child">
+    <img src="./Images/password.png" alt="">
+    <h3 class="sub-heading1">Generate Password !!</h3>
+    <p class="sub-heading2">Generate strong & secure passwords for all your online accounts with our random password generator. Mix letters, numbers and symbols for the ultimate in.</p>
+    <button class="Btn"><a href="./passwordGenerator.html">Lets Try</a></button>
+ </div>
+    </div>
+</body>
+</html>
